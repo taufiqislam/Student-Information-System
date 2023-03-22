@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- <style>
+        .student{
+            background-color: blueviolet;
+        }
+        .head{
+            background-color: aqua!important;
+        }
+    </style> -->
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary student">
+          <div class="panel-heading text-center head">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="connect.php" method="post">
+              <div class="form-group">
+                <label for="studentId">Student Id</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="studentId"
+                    name="studentId"
+                />
+              </div>
+              <div class="form-group">
+                <label for="studentName">Student Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="studentName"
+                  name="studentName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="classRoll">Class Roll</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="classRoll"
+                  name="classRoll"
+                />
+              </div>
+              <div class="form-group">
+                <label for="department">Department</label>
+                <div>
+                    <select name="department" id="department">
+                        <option value="CSE">Computer Science and Engineering</option>
+                        <option value="PHY">Physics</option>
+                        <option value="CHE">Chemistry</option>
+                        <option value="MAT">Mathematics</option>
+                        <option value="STAT">Statistics</option>
+                        <option value="ENV">Environmental Science</option>
+                        <option value="GEO">Geological Science</option>
+                    </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="batch">Batch</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="batch"
+                  name="batch"
+                />
+              </div>
+              <div class="form-group">
+                <label for="session">Session</label>
+                <select name="session" id="session">
+                    <option value="2016-17">2016-17</option>
+                    <option value="2017-18">2017-18</option>
+                    <option value="2018-19">2018-19</option>
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="hall">Hall</label>
+                <div>
+                    <select name="hall" id="hall">
+                        <option value="MMH">Mir Mosharraf Hossain Hall</option>
+                        <option value="SSB">Shaheed Salam-Barkat Hall</option>
+                        <option value="BBH">Bangabandhu Sheikh Mujibur Rahman Hall</option>
+                        <option value="ABH">Al Beruni Hall</option>
+                        <option value="SRJ">Shaheed Rafiq-Jabbar Hall</option>
+                        <option value="AFM">A F M Kamaluddin Hall</option>
+                        <option value="MBH">Mowlana Bhashani Hall</option>
+                        <option value="RTH">Bishwakabi Rabindranath Tagore Hall</option>
+                        <option value="JIH">Jahanara Imam Hall</option>
+                        <option value="NFH">Nawab Faizunnesa Hall</option>
+                        <option value="PRH">Pritilata Hall</option>
+                        <option value="FZH">Fazilatunnesa Hall</option>
+                        <option value="BKH">Begum Khaleda Zia Hall</option>
+                        <option value="SHH">Sheikh Hasina Hall</option>
+                        <option value="BFH">Bangamata Begum Fazilatunnessa Mujib Hall</option>
+                        <option value="SKH">Begum Sufia Kamal Hall</option>
+                    </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              
+              <input type="submit" class="btn btn-primary"/>
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; T</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+  </body>
+</html>
