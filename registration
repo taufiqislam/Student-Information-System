@@ -23,7 +23,7 @@
             <h1>Registration Form</h1>
           </div>
           <div class="panel-body">
-            <form action="connect.php" method="post">
+            <form action="connect1.php" method="post">
               <div class="form-group">
                 <label for="studentId">Student Id</label>
                 <input
@@ -55,13 +55,13 @@
                 <label for="department">Department</label>
                 <div>
                     <select name="department" id="department">
-                        <option value="CSE">Computer Science and Engineering</option>
-                        <option value="PHY">Physics</option>
-                        <option value="CHE">Chemistry</option>
-                        <option value="MAT">Mathematics</option>
-                        <option value="STAT">Statistics</option>
-                        <option value="ENV">Environmental Science</option>
-                        <option value="GEO">Geological Science</option>
+                        <option value="Computer Science and Engineering">Computer Science and Engineering</option>
+                        <option value="Physics">Physics</option>
+                        <option value="Chemistry">Chemistry</option>
+                        <option value="Mathematics">Mathematics</option>
+                        <option value="Statistics">Statistics</option>
+                        <option value="Environmental Science">Environmental Science</option>
+                        <option value="Geological Science">Geological Science</option>
                     </select>
                 </div>
               </div>
@@ -89,28 +89,28 @@
               <div class="form-group">
                 <label for="gender">Gender</label>
                 <div>
-                  <label for="male" class="radio-inline"
+                  <label for="Male" class="radio-inline"
                     ><input
                       type="radio"
                       name="gender"
-                      value="m"
-                      id="male"
+                      value="Male"
+                      id="Male"
                     />Male</label
                   >
-                  <label for="female" class="radio-inline"
+                  <label for="Female" class="radio-inline"
                     ><input
                       type="radio"
                       name="gender"
-                      value="f"
-                      id="female"
+                      value="Female"
+                      id="Female"
                     />Female</label
                   >
-                  <label for="others" class="radio-inline"
+                  <label for="Others" class="radio-inline"
                     ><input
                       type="radio"
                       name="gender"
-                      value="o"
-                      id="others"
+                      value="Others"
+                      id="Others"
                     />Others</label
                   >
                 </div>
@@ -119,22 +119,22 @@
                 <label for="hall">Hall</label>
                 <div>
                     <select name="hall" id="hall">
-                        <option value="MMH">Mir Mosharraf Hossain Hall</option>
-                        <option value="SSB">Shaheed Salam-Barkat Hall</option>
-                        <option value="BBH">Bangabandhu Sheikh Mujibur Rahman Hall</option>
-                        <option value="ABH">Al Beruni Hall</option>
-                        <option value="SRJ">Shaheed Rafiq-Jabbar Hall</option>
-                        <option value="AFM">A F M Kamaluddin Hall</option>
-                        <option value="MBH">Mowlana Bhashani Hall</option>
-                        <option value="RTH">Bishwakabi Rabindranath Tagore Hall</option>
-                        <option value="JIH">Jahanara Imam Hall</option>
-                        <option value="NFH">Nawab Faizunnesa Hall</option>
-                        <option value="PRH">Pritilata Hall</option>
-                        <option value="FZH">Fazilatunnesa Hall</option>
-                        <option value="BKH">Begum Khaleda Zia Hall</option>
-                        <option value="SHH">Sheikh Hasina Hall</option>
-                        <option value="BFH">Bangamata Begum Fazilatunnessa Mujib Hall</option>
-                        <option value="SKH">Begum Sufia Kamal Hall</option>
+                        <option value="Mir Mosharraf Hossain Hall">Mir Mosharraf Hossain Hall</option>
+                        <option value="Shaheed Salam-Barkat Hall">Shaheed Salam-Barkat Hall</option>
+                        <option value="Bangabandhu Sheikh Mujibur Rahman Hall">Bangabandhu Sheikh Mujibur Rahman Hall</option>
+                        <option value="Al Beruni Hall">Al Beruni Hall</option>
+                        <option value="Shaheed Rafiq-Jabbar Hall">Shaheed Rafiq-Jabbar Hall</option>
+                        <option value="A F M Kamaluddin Hall">A F M Kamaluddin Hall</option>
+                        <option value="Mowlana Bhashani Hall">Mowlana Bhashani Hall</option>
+                        <option value="Bishwakabi Rabindranath Tagore Hall">Bishwakabi Rabindranath Tagore Hall</option>
+                        <option value="Jahanara Imam Hall">Jahanara Imam Hall</option>
+                        <option value="Nawab Faizunnesa Hall">Nawab Faizunnesa Hall</option>
+                        <option value="Pritilata Hall">Pritilata Hall</option>
+                        <option value="Fazilatunnesa Hall">Fazilatunnesa Hall</option>
+                        <option value="Begum Khaleda Zia Hall">Begum Khaleda Zia Hall</option>
+                        <option value="Sheikh Hasina Hall">Sheikh Hasina Hall</option>
+                        <option value="Bangamata Begum Fazilatunnessa Mujib Hall">Bangamata Begum Fazilatunnessa Mujib Hall</option>
+                        <option value="Begum Sufia Kamal Hall">Begum Sufia Kamal Hall</option>
                     </select>
                 </div>
               </div>
