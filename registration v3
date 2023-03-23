@@ -31,6 +31,7 @@
                   class="form-control"
                   id="studentName"
                   name="studentName"
+                  required
                 />
               </div>
 
@@ -41,6 +42,7 @@
                     class="form-control"
                     id="studentId"
                     name="studentId"
+                    required
                 />
               </div>
               
@@ -51,6 +53,7 @@
                   class="form-control"
                   id="classRoll"
                   name="classRoll"
+                  required
                 />
               </div>
 
@@ -61,6 +64,7 @@
                   class="form-control"
                   id="batch"
                   name="batch"
+                  required
                 />
               </div>
 
@@ -88,6 +92,7 @@
                       name="gender"
                       value="Male"
                       id="Male"
+                      required
                     />Male</label
                   >
                   <label for="Female" class="radio-inline"
@@ -96,6 +101,7 @@
                       name="gender"
                       value="Female"
                       id="Female"
+                      required
                     />Female</label
                   >
                   <label for="Others" class="radio-inline"
@@ -104,6 +110,7 @@
                       name="gender"
                       value="Others"
                       id="Others"
+                      required
                     />Others</label
                   >
                 </div>
@@ -151,10 +158,11 @@
               <div class="form-group col-md-6">
                 <label for="email">Email</label>
                 <input
-                  type="text"
+                  type="email"
                   class="form-control"
                   id="email"
                   name="email"
+                  required
                 />
               </div>
               <div class="form-group col-md-6">
@@ -164,6 +172,7 @@
                   class="form-control"
                   id="phoneNumber"
                   name="phoneNumber"
+                  required
                 />
               </div>
               <div class="form-group col-md-12">
@@ -173,6 +182,7 @@
                   class="form-control"
                   id="password"
                   name="password"
+                  required
                 />
               </div>
               <div class = "form-group col-md-12">
